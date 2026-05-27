@@ -1,0 +1,26 @@
+{
+  "name": "guyhazakwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyhazak-ui/GUYHAZAKWEBSITE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/guyhazak-ui/GUYHAZAKWEBSITE/issues"
+  },
+  "homepage": "https://github.com/guyhazak-ui/GUYHAZAKWEBSITE#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}
